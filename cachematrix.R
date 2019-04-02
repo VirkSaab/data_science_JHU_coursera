@@ -1,5 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This script calculates the inverse of a matrix.
+## It uses a caching function which saves the previously computed values 
+## to prevent redundant computation and fast execution.
 
 ## This function creates a special "matrix" object that can cache its inverse.
 
