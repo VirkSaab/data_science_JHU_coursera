@@ -46,6 +46,6 @@ data['subjects'] <- subjects
 
 new_dataset <- group_by(data, subjects, activities)
 new_dataset <- summarise_all(new_dataset, mean)
-write.csv(new_dataset, 'tidy_dataset.csv', row.names = FALSE)
+write.table(new_dataset, 'tidy_dataset.txt', row.names = FALSE)
 
 
